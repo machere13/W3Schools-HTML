@@ -5,10 +5,23 @@ body{
     display: flex;
     flex-direction: column;
     gap: var(--spacing-40px);
+    color: var(--color-white);
 }
 
 h1{
     font: var(--font-head)
+}
+
+p{
+    font: var(--font-p);
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-60px);
 }
 
 .section_header{
@@ -23,6 +36,8 @@ h1{
     font: var(--font-head);
 }
 
-.section_title{
-    color: var(--color-white);
+.section_content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-32px);
 }

@@ -15,6 +15,11 @@
     --spacing-24px: 24px;
     --spacing-32px: 32px;
     --spacing-40px: 40px;
+    --spacing-48px: 48px;
+    --spacing-60px: 60px;
+    --spacing-72px: 72px;
+    --spacing-96px: 96px;
 
+    --font-p: 400 24px/1.25 'TT Commons Pro', sans-serif;
     --font-head: 700 64px/1 'TT Commons Pro', sans-serif;
 }
