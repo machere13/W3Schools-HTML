@@ -11,3 +11,7 @@ header{
 #section_01, #section_02, #section_03, .section_content{
     align-items: center;
 }
+
+#section_03 p{
+    text-align: center;
+}
