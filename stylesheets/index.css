@@ -8,6 +8,6 @@ header{
     height: 100vh;
 }
 
-#section_01 .section_content{
+#section_01, #section_02, #section_03, .section_content{
     align-items: center;
 }

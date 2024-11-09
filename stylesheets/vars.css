@@ -1,5 +1,6 @@
 :root{
     --color-black: #131313;
+    --color-gray: #303030;
     --color-green: #6FFF00;
     --color-red: #E90800;
     --color-blue: #4600E9;
@@ -19,7 +20,14 @@
     --spacing-60px: 60px;
     --spacing-72px: 72px;
     --spacing-96px: 96px;
+    --spacing-192px: 192px;
 
     --font-p: 400 24px/1.25 'TT Commons Pro', sans-serif;
-    --font-head: 700 64px/1 'TT Commons Pro', sans-serif;
+    --font-head6: 700 24px/1 'TT Commons Pro', sans-serif;
+    --font-head5: 700 32px/1 'TT Commons Pro', sans-serif;
+    --font-head4: 700 40px/1 'TT Commons Pro', sans-serif;
+    --font-head3: 700 48px/1 'TT Commons Pro', sans-serif;
+    --font-head2: 700 56px/1 'TT Commons Pro', sans-serif;
+    --font-head1: 700 64px/1 'TT Commons Pro', sans-serif;
+
 }

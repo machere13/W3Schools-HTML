@@ -4,16 +4,40 @@ body{
     padding: var(--spacing-32px) 0;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-40px);
+    gap: var(--spacing-192px);
     color: var(--color-white);
 }
 
 h1{
-    font: var(--font-head)
+    font: var(--font-head1)
+}
+
+h2{
+    font: var(--font-head2)
+}
+
+h3{
+    font: var(--font-head3)
+}
+
+h4{
+    font: var(--font-head4)
+}
+
+h5{
+    font: var(--font-head5)
+}
+
+h6{
+    font: var(--font-head6)
 }
 
 p{
     font: var(--font-p);
+}
+
+a{
+    font: var(--font-p)
 }
 
 section{
@@ -33,11 +57,15 @@ section{
 
 .section_number{
     color: var(--color-green);
-    font: var(--font-head);
+    font: var(--font-head1);
 }
 
 .section_content{
     display: flex;
     flex-direction: column;
     gap: var(--spacing-32px);
+}
+
+.non_accedent{
+    color: var(--color-gray);
 }
