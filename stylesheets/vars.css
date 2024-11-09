@@ -1,0 +1,20 @@
+:root{
+    --color-black: #131313;
+    --color-green: #6FFF00;
+    --color-red: #E90800;
+    --color-blue: #4600E9;
+    --color-purple: #8600A8;
+    --color-white: #FFFFF0;
+
+    --spacing-2px: 2px;
+    --spacing-4px: 4px;
+    --spacing-8px: 8px;
+    --spacing-12px: 12px;
+    --spacing-16px: 16px;
+    --spacing-20px: 20px;
+    --spacing-24px: 24px;
+    --spacing-32px: 32px;
+    --spacing-40px: 40px;
+
+    --font-head: 700 64px/1 'TT Commons Pro', sans-serif;
+}
