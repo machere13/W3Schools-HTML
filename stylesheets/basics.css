@@ -32,7 +32,7 @@ h6{
     font: var(--font-head6)
 }
 
-p{
+p, pre{
     font: var(--font-p);
 }
 
@@ -46,6 +46,10 @@ section{
     display: flex;
     flex-direction: column;
     gap: var(--spacing-60px);
+}
+
+hr{
+    width: 100%;
 }
 
 .section_header{
