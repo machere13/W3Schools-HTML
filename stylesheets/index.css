@@ -22,3 +22,14 @@ header{
     align-items: center;
     gap: var(--spacing-12px);
 }
+
+.section_05_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4px);
+}
+
+.section_05_content > p{
+    color: var(--color-gray);
+}
