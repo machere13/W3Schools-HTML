@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     gap: var(--spacing-192px);
     color: var(--color-white);
+    overflow-x: hidden;
 }
 
 h1{
@@ -32,12 +33,12 @@ h6{
     font: var(--font-head6)
 }
 
-p, pre{
+p, pre, a{
     font: var(--font-p);
 }
 
-a{
-    font: var(--font-p)
+table{
+    font: var(--font-td);
 }
 
 section{
@@ -72,4 +73,23 @@ hr{
 
 .non_accedent{
     color: var(--color-gray);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid var(--color-gray);
+    text-align: left;
+    padding: var(--spacing-8px);
+}
+  
+tr:nth-child(even) {
+    background-color: var(--color-gray);
+}
+
+i{
+    font-weight: 300;
 }

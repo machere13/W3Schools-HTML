@@ -33,3 +33,32 @@ header{
 .section_05_content > p{
     color: var(--color-gray);
 }
+
+#table_01 th:nth-child(1), #table_01 th:nth-child(3){
+    width: 40%;
+}
+
+#table_01 th:nth-child(2){
+    width: 20%;
+}
+
+#table_02, #table_02 th, #table td{
+    border-style: inset;
+}
+
+#table_02 th{
+    height: 150px;
+}
+
+#table_03{
+    border-spacing: var(--spacing-16px);
+}
+
+#table_03, #table_03 th, #table_03 td{
+    border: 1px solid white;
+    border-collapse: separate;
+}
+
+#table_04 th:nth-child(even), #table_04 td:nth-child(even){
+    background: var(--color-purple);
+}
