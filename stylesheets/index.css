@@ -62,3 +62,19 @@ header{
 #table_04 th:nth-child(even), #table_04 td:nth-child(even){
     background: var(--color-purple);
 }
+
+#lists_ul_01{
+    list-style-type: disc;
+}
+
+#lists_ul_02{
+    list-style-type: circle;
+}
+
+#lists_ul_03{
+    list-style-type: square;
+}
+    
+#lists_ul_04{
+    list-style-type: none;
+}

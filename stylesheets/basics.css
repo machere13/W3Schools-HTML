@@ -33,7 +33,7 @@ h6{
     font: var(--font-head6)
 }
 
-p, pre, a{
+p, pre, a, ol, ul, li, dl{
     font: var(--font-p);
 }
 
